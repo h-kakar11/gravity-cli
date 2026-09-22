@@ -1,5 +1,16 @@
 # gravity-cli
 
+To run:
+
+```
+git clone https://github.com/h-kakar11/gravity-cli
+cd gravity-cli
+py -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+py app.py
+```
+
 A terminal downloader for YouTube videos, playlists and auto-generated mixes.
 
 ```
