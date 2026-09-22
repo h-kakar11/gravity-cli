@@ -2,9 +2,9 @@
 
 ## A terminal downloader for YouTube videos, playlists and auto-generated mixes.
 
-To run, paste this in cmd/pwsh:
+To run, copy paste:
 
-```
+```powershell
 git clone https://github.com/h-kakar11/gravity-cli
 cd gravity-cli
 py -m venv .venv
@@ -37,14 +37,7 @@ live progress bar. Everything you download is recorded in a local history.
   anything above the lowest quality, and yt-dlp needs ffmpeg to merge them. On Windows:
   `winget install Gyan.FFmpeg`, then reopen your terminal.
 
-## Setup
 
-```powershell
-py -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-py app.py
-```
 
 ## Where your files go
 
